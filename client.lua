@@ -1,20 +1,20 @@
-local wasMeleeBlocking = false
-CreateThread(function()
-    while true do
-        Wait(0)
-        local ped = PlayerPedId()
-        if GetSelectedPedWeapon(ped) == GetHashKey("WEAPON_UNARMED") then
-            local isMeleeBlocking = IsControlPressed(0, 25)
-            if wasMeleeBlocking and not isMeleeBlocking then
-                if not IsPedWalking(ped) and not IsPedRunning(ped) and not IsPedSprinting(ped) then
-                    local coords = GetEntityCoords(ped)
-                    SetEntityCoords(ped, coords.x, coords.y, coords.z - 0.9999, false, false, false, false) -- remove t pose secretly
-                    Wait(69) -- magic number no break
-                end
-            end
-            wasMeleeBlocking = isMeleeBlocking
-        else
-            wasMeleeBlocking = false
-        end
+local pedModel = "a_m_m_business_01"
+function spawnPed()
+    local playerPed = PlayerPedId()
+    local playerCoords = GetEntityCoords(playerPed)
+    local forwardVector = GetEntityForwardVector(playerPed)
+    local spawnCoords = vector3(playerCoords.x + forwardVector.x * 3.0, playerCoords.y + forwardVector.y * 3.0, playerCoords.z)
+    RequestModel(pedModel)
+    while not HasModelLoaded(pedModel) do
+        Wait(500)
     end
-end)
+    local ped = CreatePed(4, pedModel, spawnCoords.x, spawnCoords.y, spawnCoords.z, GetEntityHeading(playerPed), true, true)
+    SetEntityInvincible(ped, false)
+    SetEntityCanBeDamaged(ped, true)
+    SetPedCanRagdoll(ped, true)
+    TaskCombatPed(ped, playerPed, 0, 16)
+    SetPedConfigFlag(ped, 32, true)
+end
+RegisterCommand("__fightanim_spawn_ped", function()
+    spawnPed()
+end, false)

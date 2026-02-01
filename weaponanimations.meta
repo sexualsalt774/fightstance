@@ -1663,7 +1663,7 @@
           <MotionClipSetHash>weapons@melee_2h</MotionClipSetHash>
           <MotionFilterHash>BothArms_filter</MotionFilterHash>
           <MotionCrouchClipSetHash />
-          <MotionStrafingClipSetHash>move_strafe_melee_unarmed_fps</MotionStrafingClipSetHash>
+          <MotionStrafingClipSetHash>move_strafe_melee_unarmed</MotionStrafingClipSetHash>
           <MotionStrafingStealthClipSetHash>move_ped_strafing_stealth</MotionStrafingStealthClipSetHash>
           <MotionStrafingUpperBodyClipSetHash>move_strafe@melee_large_weapon</MotionStrafingUpperBodyClipSetHash>
           <WeaponClipSetHash>melee@holster</WeaponClipSetHash>
@@ -2103,7 +2103,7 @@
           <MotionClipSetHash>weapons@melee_1h</MotionClipSetHash>
           <MotionFilterHash>BothArms_filter</MotionFilterHash>
           <MotionCrouchClipSetHash />
-          <MotionStrafingClipSetHash>move_strafe_melee_unarmed_fps</MotionStrafingClipSetHash>
+          <MotionStrafingClipSetHash>move_strafe_melee_unarmed</MotionStrafingClipSetHash>
           <MotionStrafingStealthClipSetHash>move_ped_strafing_stealth</MotionStrafingStealthClipSetHash>
           <MotionStrafingUpperBodyClipSetHash>move_strafe@melee_small_weapon</MotionStrafingUpperBodyClipSetHash>
           <WeaponClipSetHash>melee@holster</WeaponClipSetHash>
@@ -2543,7 +2543,7 @@
           <MotionClipSetHash>weapons@melee_2h@golfclub</MotionClipSetHash>
           <MotionFilterHash>BothArms_filter</MotionFilterHash>
           <MotionCrouchClipSetHash />
-          <MotionStrafingClipSetHash>move_strafe_melee_unarmed_fps</MotionStrafingClipSetHash>
+          <MotionStrafingClipSetHash>move_strafe_melee_unarmed</MotionStrafingClipSetHash>
           <MotionStrafingStealthClipSetHash>move_ped_strafing_stealth</MotionStrafingStealthClipSetHash>
           <MotionStrafingUpperBodyClipSetHash>move_strafe@melee_large_weapon</MotionStrafingUpperBodyClipSetHash>
           <WeaponClipSetHash>melee@holster</WeaponClipSetHash>
@@ -2719,7 +2719,7 @@
           <MotionClipSetHash>weapons@melee_1h</MotionClipSetHash>
           <MotionFilterHash>BothArms_filter</MotionFilterHash>
           <MotionCrouchClipSetHash />
-          <MotionStrafingClipSetHash>move_strafe_melee_unarmed_fps</MotionStrafingClipSetHash>
+          <MotionStrafingClipSetHash>move_strafe_melee_unarmed</MotionStrafingClipSetHash>
           <MotionStrafingStealthClipSetHash>move_ped_strafing_stealth</MotionStrafingStealthClipSetHash>
           <MotionStrafingUpperBodyClipSetHash>move_strafe@melee_small_weapon</MotionStrafingUpperBodyClipSetHash>
           <WeaponClipSetHash>melee@holster</WeaponClipSetHash>
@@ -2895,7 +2895,7 @@
           <MotionClipSetHash>weapons@melee_1h</MotionClipSetHash>
           <MotionFilterHash>BothArms_filter</MotionFilterHash>
           <MotionCrouchClipSetHash />
-          <MotionStrafingClipSetHash>move_strafe_melee_unarmed_fps</MotionStrafingClipSetHash>
+          <MotionStrafingClipSetHash>move_strafe_melee_unarmed</MotionStrafingClipSetHash>
           <MotionStrafingStealthClipSetHash>move_ped_strafing_stealth</MotionStrafingStealthClipSetHash>
           <MotionStrafingUpperBodyClipSetHash>move_strafe@knife</MotionStrafingUpperBodyClipSetHash>
           <WeaponClipSetHash>melee@holster</WeaponClipSetHash>
@@ -3115,7 +3115,7 @@
           <MotionClipSetHash>weapons@melee_1h</MotionClipSetHash>
           <MotionFilterHash>BothArms_filter</MotionFilterHash>
           <MotionCrouchClipSetHash />
-          <MotionStrafingClipSetHash>move_strafe_melee_unarmed_fps</MotionStrafingClipSetHash>
+          <MotionStrafingClipSetHash>move_strafe_melee_unarmed</MotionStrafingClipSetHash>
           <MotionStrafingStealthClipSetHash>move_ped_strafing_stealth</MotionStrafingStealthClipSetHash>
           <MotionStrafingUpperBodyClipSetHash>move_strafe@melee_small_weapon</MotionStrafingUpperBodyClipSetHash>
           <WeaponClipSetHash>melee@holster</WeaponClipSetHash>
@@ -3879,8 +3879,8 @@
           <FiringVariationsCrouchingClipSetHash />
           <AimTurnStandingClipSetHash />
           <AimTurnCrouchingClipSetHash />
-		  <MeleeBaseClipSetHash>melee@unarmed@base_fps</MeleeBaseClipSetHash>
-          <MeleeClipSetHash>melee@unarmed@streamed_core_fps</MeleeClipSetHash>
+		  <MeleeBaseClipSetHash>melee@unarmed@base</MeleeBaseClipSetHash>
+          <MeleeClipSetHash>melee@unarmed@streamed_core</MeleeClipSetHash>
           <MeleeVariationClipSetHash>melee@unarmed@streamed_variations</MeleeVariationClipSetHash>
           <MeleeTauntClipSetHash>melee@unarmed@streamed_taunts</MeleeTauntClipSetHash>
           <MeleeSupportTauntClipSetHash>melee@unarmed@streamed_background</MeleeSupportTauntClipSetHash>
@@ -7833,7 +7833,7 @@
           <FiringVariationsCrouchingClipSetHash />
           <AimTurnStandingClipSetHash />
           <AimTurnCrouchingClipSetHash />
-		  <MeleeBaseClipSetHash>melee@unarmed@base_fps</MeleeBaseClipSetHash>
+		  <MeleeBaseClipSetHash>melee@unarmed@base</MeleeBaseClipSetHash>
           <MeleeClipSetHash>melee@unarmed@streamed_core_fps</MeleeClipSetHash>
           <MeleeVariationClipSetHash>melee@unarmed@streamed_variations</MeleeVariationClipSetHash>
           <MeleeTauntClipSetHash>melee@unarmed@streamed_taunts</MeleeTauntClipSetHash>
@@ -10037,7 +10037,7 @@
          <FiringVariationsCrouchingClipSetHash />
          <AimTurnStandingClipSetHash />
          <AimTurnCrouchingClipSetHash />
-         <MeleeBaseClipSetHash>melee@unarmed@base_fps</MeleeBaseClipSetHash>
+         <MeleeBaseClipSetHash>melee@unarmed@base</MeleeBaseClipSetHash>
          <MeleeClipSetHash>melee@unarmed@streamed_core_fps</MeleeClipSetHash>
          <MeleeVariationClipSetHash>melee@unarmed@streamed_variations</MeleeVariationClipSetHash>
          <MeleeTauntClipSetHash>melee@unarmed@streamed_taunts</MeleeTauntClipSetHash>
@@ -12912,7 +12912,7 @@
           <MotionClipSetHash />
           <MotionFilterHash />
           <MotionCrouchClipSetHash />
-          <MotionStrafingClipSetHash>move_strafe_melee_unarmed_fps</MotionStrafingClipSetHash>
+          <MotionStrafingClipSetHash>move_strafe_melee_unarmed</MotionStrafingClipSetHash>
           <MotionStrafingStealthClipSetHash>move_ped_strafing_stealth</MotionStrafingStealthClipSetHash>
           <MotionStrafingUpperBodyClipSetHash />
           <WeaponClipSetHash>weapons@unarmed</WeaponClipSetHash>
@@ -12928,8 +12928,8 @@
           <FiringVariationsCrouchingClipSetHash />
           <AimTurnStandingClipSetHash />
           <AimTurnCrouchingClipSetHash />
-		      <MeleeBaseClipSetHash>melee@unarmed@base_fps</MeleeBaseClipSetHash>
-          <MeleeClipSetHash>melee@unarmed@streamed_core_fps</MeleeClipSetHash>
+		      <MeleeBaseClipSetHash>melee@unarmed@base</MeleeBaseClipSetHash>
+          <MeleeClipSetHash>melee@unarmed@streamed_core</MeleeClipSetHash>
           <MeleeVariationClipSetHash>melee@unarmed@streamed_variations</MeleeVariationClipSetHash>
           <MeleeTauntClipSetHash>melee@unarmed@streamed_taunts</MeleeTauntClipSetHash>
           <MeleeSupportTauntClipSetHash>melee@unarmed@streamed_background</MeleeSupportTauntClipSetHash>
@@ -16599,9 +16599,5 @@
         </Item>
 	  </WeaponAnimations>
 	</Item>
-    <Item key="ZOMBIE">
-      <Fallback>Default</Fallback>
-      <WeaponAnimations />
-    </Item>
   </WeaponAnimationsSets>
 </CWeaponAnimationsSets>
